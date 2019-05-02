@@ -59,7 +59,6 @@ int main() {
     cout << "\n";
 
 /*************** Ordered from Low to High Array ***************/
-
     cout << "ORIGINAL ARRAY:" << endl;
     lowToHighArray(magArray, ARRAY_SIZE);
     printArray(magArray, ARRAY_SIZE);
@@ -85,7 +84,6 @@ int main() {
     cout << "\n";
 
 /*************** Ordered from High to Low Array ***************/
-
     cout << "ORIGINAL ARRAY:" << endl;
     highToLowArray(magArray, ARRAY_SIZE);
     printArray(magArray, ARRAY_SIZE);
@@ -114,7 +112,6 @@ int main() {
 }
 
 /*************** "Datasets" ***************/
-
 // Generate random values into array
 void generateMagValue(int arr[], int size, int magRange) {
     for (int i = 0; i < ARRAY_SIZE; i++) {
